@@ -54,7 +54,7 @@ namespace AlgorithmAkademy_v2._0
             }
         }
         /// <summary>
-        ///  Цикл продолжения или выхода
+        ///  Компановка и выход проверки простых чисел
         /// </summary>
         public void Core_SimpleNumber()
         {
