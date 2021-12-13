@@ -10,9 +10,10 @@ namespace AlgorithmAkademy_v2._0
     {
         public string menuText = "Добро пожаловать в меню Домашних заданий по предмету Алгоритмы \n" +
                  "Выберите ниже из списка:\n" +
-                 "1-Урок №1- Проверка числа простое/непростое\n" +
-                 "2-Урок №1- Число Фибоначи рекурсивный метотод / обычный метод\n" +
-                 "3-Урок №2- Двусвязный список\n" +
+                 "1 Урок №1- Проверка числа простое/непростое\n" +
+                 "2 Урок №1- Число Фибоначи рекурсивный метотод / обычный метод\n" +
+                 "3 Урок №2- Двусвязный список\n" +
+                 "4 Урок №3- Tecт Benchmark\n" +
                  "9-Выход";
         /// <summary>
         /// Главное Меню для программы
@@ -33,6 +34,9 @@ namespace AlgorithmAkademy_v2._0
 
                     if (numberInter == 3)
                         DualLinkedList();
+                    
+                    if (numberInter == 4)
+                        ClassStructureBenchmark();
 
                     if (numberInter == 9)
                         Environment.Exit(0);
@@ -71,6 +75,14 @@ namespace AlgorithmAkademy_v2._0
         {
             Node node = new Node();
             node.Run_DualLinkedList();
+        }
+        /// <summary>
+        /// Точка вывода проекта Двусвязного списка
+        /// </summary>
+        public void ClassStructureBenchmark()
+        {
+            PointDoubleClass pointDoubleClass = new PointDoubleClass(2,2);
+            pointDoubleClass.ClassDouble();
         }
     }
 }
