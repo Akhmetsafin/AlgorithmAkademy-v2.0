@@ -6,7 +6,9 @@ namespace AlgorithmAkademy_v2._0
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            MainMenu mainMenu = new MainMenu();
+            Console.WriteLine(mainMenu.menuText);
+            mainMenu.ProjectMenu();
         }
     }
 }
