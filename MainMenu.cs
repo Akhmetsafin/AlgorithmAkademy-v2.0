@@ -29,7 +29,7 @@ namespace AlgorithmAkademy_v2._0
                         SimpleNumbers();
 
                     if (numberInter == 2)
-                        FibonachiNum()
+                        FibonachiNum();
 
                     if (numberInter == 3)
                       //  DualLinkedList();
