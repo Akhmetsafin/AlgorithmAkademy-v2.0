@@ -161,7 +161,7 @@ namespace AlgorithmAkademy_v2._0
         /// <summary>
         /// Запуск проекта Двусвязного списка
         /// </summary>
-        public void RunNode()
+        public void Run_DualLinkedList()
         {
             var node = new Node();
             // ввод данных на консоль
