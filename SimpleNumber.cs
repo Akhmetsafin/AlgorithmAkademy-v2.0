@@ -58,6 +58,7 @@ namespace AlgorithmAkademy_v2._0
         /// </summary>
         public void Core_SimpleNumber()
         {
+            Console.WriteLine("Программа определения простых и не простых чисел");
             Console.WriteLine("Введите число: ");
             Verification_SimpleNumber();
 

@@ -48,5 +48,13 @@ namespace AlgorithmAkademy_v2._0
             Console.WriteLine(menuText);
             MyMenu();
         }
+        /// <summary>
+        /// Точка проекта с проверкой простых чисел
+        /// </summary>
+        public void SimpleNumbers()
+        {
+            SimpleNumber simple_Number = new SimpleNumber();
+            simple_Number.Core_SimpleNumber();
+        }
     }
 }
